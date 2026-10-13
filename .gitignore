@@ -1,0 +1,31 @@
+# --- Environnements virtuels ---
+venv/
+.venv/
+env/
+anaconda_projects/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Données (régénérées par generate_data.py) ---
+*.csv
+
+# --- Modèles / artefacts ML ---
+*.pkl
+*.joblib
+mlruns/
+
+# --- Variables d'environnement / secrets ---
+.env
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
